@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
-
+  doRefresh(event){
+    event.target.complete();
+  }
 }
